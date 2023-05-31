@@ -1,0 +1,22 @@
+{
+  "name": "vulcaingpt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromadb": "^1.4.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "hnswlib-node": "^1.4.2",
+    "langchain": "^0.0.64",
+    "mammoth": "^1.5.1",
+    "pdf-parse": "^1.1.1",
+    "twig": "^1.16.0"
+  }
+}
